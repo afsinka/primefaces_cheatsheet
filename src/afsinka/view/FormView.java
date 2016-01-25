@@ -23,7 +23,7 @@ public class FormView {
 	public void firstStepSubmitAction(ActionEvent actionEvent) {
 		// if fail in validation do NOT reach here
 
-		System.out.println(applicant.getFirstName() + " " + applicant.getLastName());
+		System.out.println(applicant);
 	}
 
 }

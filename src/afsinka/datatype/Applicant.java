@@ -73,5 +73,19 @@ public class Applicant {
 	public void setPlaceOfBirth(String placeOfBirth) {
 		this.placeOfBirth = placeOfBirth;
 	}
+	
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append("FirstName=").append(firstName).append(",");
+		sb.append("LastName=").append(lastName).append(",");
+		sb.append("DateOfBirth=").append(dateOfBirth == null ? "" : dateOfBirth.toString()).append(",");
+		sb.append("PlaceOfBirth=").append(placeOfBirth).append(",");
+		sb.append("GPA=").append(gpa).append(",");
+		sb.append("Office=").append(selectedOffice);
+
+		return sb.toString();
+	}
+
 
 }

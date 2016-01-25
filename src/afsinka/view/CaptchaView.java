@@ -22,7 +22,7 @@ public class CaptchaView {
 
 	public void submit(ActionEvent actionEvent) {
 
-		System.out.println(applicant.getFirstName() + " " + applicant.getLastName());
+		System.out.println(applicant);
 	}
 
 }

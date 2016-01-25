@@ -1,5 +1,6 @@
+afsinka\controller\AjaxController.class
 afsinka\datatype\Applicant.class
 afsinka\view\CaptchaView.class
-afsinka\util\UTF8Filter.class
 afsinka\util\Utils.class
 afsinka\view\FormView.class
+afsinka\util\UTF8Filter.class
